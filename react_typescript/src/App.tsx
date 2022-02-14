@@ -2,6 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const name = "hello";
+
+const someObj1 = {
+  foo: 'あああ',
+  bar: 'いいい',
+  baz: 'うううう',
+}
+
+type someObj2 = {
+  foo: string,
+  bar: string,
+  baz: number,
+}
+
+let obj1: keyof typeof someObj1;
+let obj2: keyof someObj2;
+obj2 = 'bar';
+
+
 function App() {
   return (
     <div className="App">
