@@ -20,6 +20,7 @@ let obj1: keyof typeof someObj1;
 let obj2: keyof someObj2;
 obj2 = 'bar';
 
+let test: "aaa" = "aaa";
 
 function App() {
   return (
